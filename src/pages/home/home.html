@@ -9,22 +9,22 @@
     <ion-list-header>
       トップス
     </ion-list-header>
-    <ion-item *ngFor="let tops of topsList">
+    <button ion-item *ngFor="let tops of topsList">
       <ion-thumbnail item-start>
         <img src="{{tops.imagePath}}">
       </ion-thumbnail>
       <h2>{{tops.name}}</h2>
       <p>￥{{tops.price}}</p>
-    </ion-item>
+    </button>
     <ion-list-header>
       ジャケット/アウター
     </ion-list-header>
-    <ion-item *ngFor="let jacket of jacketList">
+    <button ion-item *ngFor="let jacket of jacketList">
       <ion-thumbnail item-start>
         <img src="{{jacket.imagePath}}">
       </ion-thumbnail>
       <h2>{{jacket.name}}</h2>
       <p>￥{{jacket.price}}</p>
-    </ion-item>
+    </button>
   </ion-list>
 </ion-content>

@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { NavController } from "ionic-angular";
 import { Product, PRODUCT_TYPE } from "../../model/product.model";
+import { ProductProvider } from "../../providers/product/product";
 
 @Component({
   selector: "page-home",
@@ -17,12 +18,15 @@ export class HomePage {
   ) {}
 
   ionViewDidLoad() {
+    // 全商品リストを取得
     this.productProvider.retrieve().subscribe(products => {
       this.productList = products;
-      this.topsList = this.productList.filter(
+      // トップス のみのリストを取得
+      this.topsList = products.filter(
         product => product.type === PRODUCT_TYPE.tops
       );
-      this.jacketList = this.productList.filter(
+      // ジャケット/アウター のみのリストを取得
+      this.jacketList = products.filter(
         product => product.type === PRODUCT_TYPE.jacket
       );
     });

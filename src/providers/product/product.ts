@@ -8,6 +8,7 @@ export class ProductProvider {
   constructor(public http: HttpClient) {}
 
   retrieve(): Observable<Product[]> {
+    // JSONにアクセスして、結果をProduct[]に変換
     return this.http.get<Product[]>("assets/data/products.json");
   }
 }

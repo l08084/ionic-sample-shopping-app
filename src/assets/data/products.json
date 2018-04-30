@@ -37,7 +37,7 @@
     "name": "ストライプ柄ブラウス ホワイト",
     "price": 3700,
     "type": 0,
-    "imagePath": "assets/imgs/gray-t-shirt.png",
+    "imagePath": "assets/imgs/white-blouse.png",
     "commentOne": "合わせやすいカジュアルなボーダーの長袖シャツ",
     "commentTwo":
       "シワ加工ディティール入り、オーバーサイズシャツ、ケアレスファイバー",
@@ -47,7 +47,7 @@
     "id": "11",
     "name": "シワ加工ジャケット ベージュ",
     "price": 12000,
-    "type": 0,
+    "type": 1,
     "imagePath": "assets/imgs/beige-jacket.png",
     "commentOne": "合わせやすいカジュアルなボーダーの長袖シャツ",
     "commentTwo":
@@ -58,7 +58,7 @@
     "id": "12",
     "name": "スクールダッフルコート ブルー",
     "price": 11000,
-    "type": 0,
+    "type": 1,
     "imagePath": "assets/imgs/blue-duffle-coat.png",
     "commentOne": "合わせやすいカジュアルなボーダーの長袖シャツ",
     "commentTwo":
@@ -69,7 +69,7 @@
     "id": "13",
     "name": "スクールダッフルコート ホワイト",
     "price": 11000,
-    "type": 0,
+    "type": 1,
     "imagePath": "assets/imgs/white-duffle-coat.png",
     "commentOne": "合わせやすいカジュアルなボーダーの長袖シャツ",
     "commentTwo":
@@ -80,7 +80,7 @@
     "id": "14",
     "name": "ナイロンパーカー パープル/ピンク",
     "price": 37000,
-    "type": 0,
+    "type": 1,
     "imagePath": "assets/imgs/nylon-parker.png",
     "commentOne": "合わせやすいカジュアルなボーダーの長袖シャツ",
     "commentTwo":
