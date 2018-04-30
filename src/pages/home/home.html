@@ -9,7 +9,7 @@
     <ion-list-header>
       トップス
     </ion-list-header>
-    <button ion-item *ngFor="let tops of topsList">
+    <button ion-item *ngFor="let tops of topsList" (click)="goToDetail(tops)">
       <ion-thumbnail item-start>
         <img src="{{tops.imagePath}}">
       </ion-thumbnail>
@@ -19,7 +19,7 @@
     <ion-list-header>
       ジャケット/アウター
     </ion-list-header>
-    <button ion-item *ngFor="let jacket of jacketList">
+    <button ion-item *ngFor="let jacket of jacketList" (click)="goToDetail(jacket)">
       <ion-thumbnail item-start>
         <img src="{{jacket.imagePath}}">
       </ion-thumbnail>

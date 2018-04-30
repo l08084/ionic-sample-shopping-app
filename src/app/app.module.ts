@@ -12,12 +12,20 @@ import { StatusBar } from "@ionic-native/status-bar";
 import { SplashScreen } from "@ionic-native/splash-screen";
 import { ProductProvider } from "../providers/product/product";
 import { HttpClientModule } from "@angular/common/http";
+import { DetailPage } from "../pages/detail/detail";
 
 @NgModule({
-  declarations: [MyApp, AboutPage, ContactPage, HomePage, TabsPage],
+  declarations: [MyApp, AboutPage, ContactPage, HomePage, TabsPage, DetailPage],
   imports: [BrowserModule, IonicModule.forRoot(MyApp), HttpClientModule],
   bootstrap: [IonicApp],
-  entryComponents: [MyApp, AboutPage, ContactPage, HomePage, TabsPage],
+  entryComponents: [
+    MyApp,
+    AboutPage,
+    ContactPage,
+    HomePage,
+    TabsPage,
+    DetailPage
+  ],
   providers: [
     StatusBar,
     SplashScreen,
