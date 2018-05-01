@@ -11,6 +11,7 @@ import { ProductProvider } from "../../providers/product/product";
 export class CartPage {
   productList: Product[];
   subtotal: number;
+  total: number;
   isEmpty: boolean;
 
   constructor(
@@ -23,6 +24,7 @@ export class CartPage {
   ionViewDidEnter() {
     this.productList = [];
     this.subtotal = 0;
+    this.total = 0;
     this.isEmpty = false;
     this.storage
       .length()
@@ -35,6 +37,7 @@ export class CartPage {
               this.productList.forEach(
                 product => (this.subtotal += product.price)
               );
+              this.total = this.subtotal + 300;
             })
             .catch(err => {});
         } else {
