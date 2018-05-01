@@ -1,18 +1,39 @@
-<!--
-  Generated template for the CartPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
-
   <ion-navbar>
-    <ion-title>cart</ion-title>
+    <ion-title>
+      カート
+    </ion-title>
   </ion-navbar>
-
 </ion-header>
 
-
-<ion-content padding>
-
+<ion-content>
+  <div *ngIf="!isEmpty; else elseBlock">
+    <ion-list>
+      <ion-item *ngFor="let product of productList">
+        <div class="quantity">{{product.quantity}}</div>
+        <div class="product">{{product.name}}</div>
+        <div class="price">￥{{product.price * product.quantity}}</div>
+      </ion-item>
+      <ion-item>
+        <div class="check-detail">
+          <p class="title">小計</p>
+          <p class="price">￥{{subtotal}}</p>
+        </div>
+        <div class="check-detail">
+          <p class="title">デリバリー料</p>
+          <p class="price">￥300</p>
+        </div>
+      </ion-item>
+      <ion-item>
+        <div class="title emphasis">合計（税込み）</div>
+        <div class="price emphasis">￥{{subtotal + 300}}</div>
+      </ion-item>
+      <ion-item no-lines>
+      </ion-item>
+    </ion-list>
+    <button ion-button full color="secondary" class="order" (click)="order()">注文する</button>
+  </div>
+  <ng-template #elseBlock>
+    <h2>お客様のショッピングカートに商品はありません。</h2>
+  </ng-template>
 </ion-content>

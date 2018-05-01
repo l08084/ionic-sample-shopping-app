@@ -1,3 +1,33 @@
 page-cart {
-
+  .quantity {
+    float: left;
+    margin: 0 10px 0 0;
+  }
+  .product {
+    float: left;
+  }
+  .title {
+    float: left;
+    &.emphasis {
+      font-weight: bold;
+    }
+  }
+  .price {
+    float: right;
+    &.emphasis {
+      font-weight: bold;
+      color: #3d9970;
+      font-size: 1.9rem;
+    }
+  }
+  .check-detail {
+    // floatの回り込み解除
+    overflow: hidden;
+  }
+  .order {
+    position: fixed;
+    bottom: 60px;
+    left: 0;
+    margin: 0;
+  }
 }
