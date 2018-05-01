@@ -9,9 +9,13 @@ import { ProductProvider } from "../../providers/product/product";
   templateUrl: "cart.html"
 })
 export class CartPage {
+  // カート内の商品の一覧
   productList: Product[];
+  // 小計
   subtotal: number;
+  // 合計
   total: number;
+  // カート内が空の時にtrue
   isEmpty: boolean;
 
   constructor(
@@ -21,6 +25,13 @@ export class CartPage {
     private productProvider: ProductProvider
   ) {}
 
+  /**
+   * Ionicのライフサイクルメソッドの一種
+   * ページがアクティブになると呼び出される
+   * ストレージ（カート）内に商品が格納されていれば、取得する
+   *
+   * @memberof CartPage
+   */
   ionViewDidEnter() {
     this.productList = [];
     this.subtotal = 0;
@@ -29,24 +40,35 @@ export class CartPage {
     this.storage
       .length()
       .then(result => {
+        // カート内に商品がある場合
         if (result > 0) {
           this.storage
             .get("items")
             .then(result => {
               this.productList = result;
               this.productList.forEach(
+                // 小計を計算
                 product => (this.subtotal += product.price)
               );
+              // 小計にデリバリー料を加算して、合計を計算している
               this.total = this.subtotal + 300;
             })
             .catch(err => {});
         } else {
+          // カート内が空の場合
           this.isEmpty = true;
         }
       })
       .catch(err => {});
   }
 
+  /**
+   * 「注文する」ボタン押下時に呼び出し
+   *  Confirm Alertを表示し、OKを選択すると、
+   *  注文を確定して、ストレージをクリアする
+   *
+   * @memberof CartPage
+   */
   order() {
     const confirm = this.alertCtrl.create({
       title: "注文を確定しますか？",
