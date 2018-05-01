@@ -13,10 +13,26 @@ import { SplashScreen } from "@ionic-native/splash-screen";
 import { ProductProvider } from "../providers/product/product";
 import { HttpClientModule } from "@angular/common/http";
 import { DetailPage } from "../pages/detail/detail";
+import { CartPage } from "../pages/cart/cart";
+
+import { IonicStorageModule } from "@ionic/storage";
 
 @NgModule({
-  declarations: [MyApp, AboutPage, ContactPage, HomePage, TabsPage, DetailPage],
-  imports: [BrowserModule, IonicModule.forRoot(MyApp), HttpClientModule],
+  declarations: [
+    MyApp,
+    AboutPage,
+    ContactPage,
+    HomePage,
+    TabsPage,
+    DetailPage,
+    CartPage
+  ],
+  imports: [
+    BrowserModule,
+    IonicModule.forRoot(MyApp),
+    HttpClientModule,
+    IonicStorageModule.forRoot()
+  ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
@@ -24,7 +40,8 @@ import { DetailPage } from "../pages/detail/detail";
     ContactPage,
     HomePage,
     TabsPage,
-    DetailPage
+    DetailPage,
+    CartPage
   ],
   providers: [
     StatusBar,
