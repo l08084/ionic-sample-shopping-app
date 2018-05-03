@@ -22,7 +22,8 @@ export class CartPage {
     public navCtrl: NavController,
     public alertCtrl: AlertController,
     private storage: Storage,
-    private productProvider: ProductProvider
+    private productProvider: ProductProvider,
+    private events: Events
   ) {}
 
   /**
@@ -89,6 +90,10 @@ export class CartPage {
             this.storage.clear();
             this.productList = [];
             this.isEmpty = true;
+            // add this!
+            // トピック`cart:updated`で出版
+            // eventDataとして、カート内の商品の数を渡している
+            this.events.publish("cart:updated", 0);
           }
         }
       ]
