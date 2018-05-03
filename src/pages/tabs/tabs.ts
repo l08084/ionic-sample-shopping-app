@@ -7,8 +7,8 @@ import { CartPage } from "../cart/cart";
   templateUrl: "tabs.html"
 })
 export class TabsPage {
-  tab1Root = HomePage;
-  tab2Root = CartPage;
+  public tab1Root = HomePage;
+  public tab2Root = CartPage;
 
   constructor() {}
 }
