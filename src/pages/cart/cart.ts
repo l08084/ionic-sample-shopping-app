@@ -34,9 +34,16 @@ export class CartPage {
    * @memberof CartPage
    */
   ionViewDidEnter() {
+    // 画面の初期化処理
     this.init();
   }
 
+  /**
+   * カート画面の初期化処理を行う
+   * ストレージの読み込みを行い、商品が入っていればリスト形式で表示する
+   *
+   * @memberof CartPage
+   */
   init() {
     this.productList = [];
     this.subtotal = 0;
@@ -77,6 +84,7 @@ export class CartPage {
    * @memberof CartPage
    */
   order() {
+    // Confirm Alertを表示する
     const confirm = this.alertCtrl.create({
       title: "注文を確定しますか？",
       buttons: [
@@ -93,12 +101,8 @@ export class CartPage {
               buttons: ["OK"]
             });
             alert.present();
-            this.storage.clear();
-            this.productList = [];
-            this.isEmpty = true;
-            // トピック`cart:updated`で出版
-            // eventDataとして、カート内の商品の数を渡している
-            this.events.publish("cart:updated", 0);
+            // ショッピングカートの中を空にする
+            this.allRemove();
           }
         }
       ]
@@ -106,6 +110,11 @@ export class CartPage {
     confirm.present();
   }
 
+  /**
+   * ショッピングカートの中を空にする
+   *
+   * @memberof CartPage
+   */
   allRemove() {
     this.storage.clear().then(() => {
       this.events.publish("cart:updated", 0);
