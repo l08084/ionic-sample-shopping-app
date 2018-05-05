@@ -55,7 +55,6 @@ export class CartPage {
                 // 小計を計算
                 product => (this.subtotal += product.price)
               );
-              // add this!
               // 同一の商品(idが同じ)を一つのオブジェクトにまとめる
               this.productList = this.productProvider.groupBy(result);
               // 小計にデリバリー料を加算して、合計を計算している
@@ -97,7 +96,6 @@ export class CartPage {
             this.storage.clear();
             this.productList = [];
             this.isEmpty = true;
-            // add this!
             // トピック`cart:updated`で出版
             // eventDataとして、カート内の商品の数を渡している
             this.events.publish("cart:updated", 0);

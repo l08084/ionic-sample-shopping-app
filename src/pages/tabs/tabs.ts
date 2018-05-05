@@ -30,7 +30,6 @@ export class TabsPage {
       count => (this.itemCount = count ? count : 0)
     );
 
-    // add this!
     // アプリの初期表示時のタイミング
     // 前回起動時にカート内に商品を入れた場合を考慮して、
     // ストレージの読み込みを実施している
