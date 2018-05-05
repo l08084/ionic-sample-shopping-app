@@ -34,6 +34,10 @@ export class CartPage {
    * @memberof CartPage
    */
   ionViewDidEnter() {
+    this.init();
+  }
+
+  init() {
     this.productList = [];
     this.subtotal = 0;
     this.total = 0;
@@ -102,5 +106,12 @@ export class CartPage {
       ]
     });
     confirm.present();
+  }
+
+  allRemove() {
+    this.storage.clear().then(() => {
+      this.events.publish("cart:updated", 0);
+      this.init();
+    });
   }
 }
