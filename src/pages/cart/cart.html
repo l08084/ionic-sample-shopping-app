@@ -37,6 +37,12 @@
     <button ion-button full color="secondary" class="order" (click)="order()">注文する</button>
   </div>
   <ng-template #elseBlock>
-    <h2>お客様のショッピングカートに商品はありません。</h2>
+    <!-- <h2>お客様のショッピングカートに商品はありません。</h2> -->
+    <div class="empty">
+      <div>
+        <ion-icon name="cart" class="icon"></ion-icon>
+      </div>
+      <div>カートは空です</div>
+    </div>
   </ng-template>
 </ion-content>
