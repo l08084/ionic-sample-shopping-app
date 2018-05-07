@@ -29,7 +29,6 @@ export class CartPage {
   /**
    * Ionicのライフサイクルメソッドの一種
    * ページがアクティブになると呼び出される
-   * ストレージ（カート）内に商品が格納されていれば、取得する
    *
    * @memberof CartPage
    */
