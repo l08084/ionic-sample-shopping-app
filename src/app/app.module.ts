@@ -14,6 +14,9 @@ import { DetailPage } from "../pages/detail/detail";
 import { CartPage } from "../pages/cart/cart";
 
 import { IonicStorageModule } from "@ionic/storage";
+import { StorageProvider } from '../providers/storage/storage';
+import { UtilityProvider } from '../providers/utility/utility';
+import { ApiProvider } from '../providers/api/api';
 
 @NgModule({
   declarations: [MyApp, HomePage, TabsPage, DetailPage, CartPage],
@@ -29,7 +32,10 @@ import { IonicStorageModule } from "@ionic/storage";
     StatusBar,
     SplashScreen,
     { provide: ErrorHandler, useClass: IonicErrorHandler },
-    ProductProvider
+    ProductProvider,
+    StorageProvider,
+    UtilityProvider,
+    ApiProvider
   ]
 })
 export class AppModule {}
