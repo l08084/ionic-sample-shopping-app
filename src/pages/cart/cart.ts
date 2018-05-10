@@ -2,7 +2,6 @@ import { Component } from "@angular/core";
 import { AlertController, NavController, Events } from "ionic-angular";
 import { Product } from "../../model/product.model";
 import { Storage } from "@ionic/storage";
-import { ProductProvider } from "../../providers/product/product";
 import { UtilityProvider } from "../../providers/utility/utility";
 
 @Component({
@@ -23,7 +22,6 @@ export class CartPage {
     public navCtrl: NavController,
     public alertCtrl: AlertController,
     private storage: Storage,
-    private productProvider: ProductProvider,
     private events: Events,
     private utilityProvider: UtilityProvider
   ) {}

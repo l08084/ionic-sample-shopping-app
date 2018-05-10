@@ -1,7 +1,6 @@
 import { Component } from "@angular/core";
 import { NavController } from "ionic-angular";
 import { Product, PRODUCT_TYPE } from "../../model/product.model";
-import { ProductProvider } from "../../providers/product/product";
 import { DetailPage } from "../detail/detail";
 import { ApiProvider } from "../../providers/api/api";
 
@@ -16,7 +15,6 @@ export class HomePage {
 
   constructor(
     private navCtrl: NavController,
-    private productProvider: ProductProvider,
     private apiProvider: ApiProvider
   ) {}
 

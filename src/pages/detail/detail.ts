@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 import { NavController, NavParams } from "ionic-angular";
 import { Product } from "../../model/product.model";
-import { ProductProvider } from "../../providers/product/product";
+import { StorageProvider } from "../../providers/storage/storage";
 
 @Component({
   selector: "page-detail",
@@ -13,7 +13,7 @@ export class DetailPage {
   constructor(
     private navCtrl: NavController,
     private navParams: NavParams,
-    private productProvider: ProductProvider
+    private storageProvider: StorageProvider
   ) {}
 
   ngOnInit() {
@@ -28,7 +28,7 @@ export class DetailPage {
    * @memberof DetailPage
    */
   addItem(product: Product) {
-    this.productProvider.addItem(product);
+    this.storageProvider.addItem(product);
     // 商品リスト画面に戻る
     this.navCtrl.pop();
   }
