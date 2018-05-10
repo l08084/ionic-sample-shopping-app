@@ -3,6 +3,7 @@ import { NavController } from "ionic-angular";
 import { Product, PRODUCT_TYPE } from "../../model/product.model";
 import { ProductProvider } from "../../providers/product/product";
 import { DetailPage } from "../detail/detail";
+import { ApiProvider } from "../../providers/api/api";
 
 @Component({
   selector: "page-home",
@@ -15,12 +16,13 @@ export class HomePage {
 
   constructor(
     private navCtrl: NavController,
-    private productProvider: ProductProvider
+    private productProvider: ProductProvider,
+    private apiProvider: ApiProvider
   ) {}
 
   ionViewDidLoad() {
     // 全商品リストを取得
-    this.productProvider.retrieve().subscribe(products => {
+    this.apiProvider.retrieve().subscribe(products => {
       this.productList = products;
       // トップス のみのリストを取得
       this.topsList = products.filter(

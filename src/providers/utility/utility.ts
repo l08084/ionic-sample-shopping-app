@@ -1,17 +1,22 @@
-import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { HttpClient } from "@angular/common/http";
+import { Injectable } from "@angular/core";
+import { Product } from "../../model/product.model";
 
-/*
-  Generated class for the UtilityProvider provider.
-
-  See https://angular.io/guide/dependency-injection for more info on providers
-  and Angular DI.
-*/
 @Injectable()
 export class UtilityProvider {
+  constructor(public http: HttpClient) {}
 
-  constructor(public http: HttpClient) {
-    console.log('Hello UtilityProvider Provider');
+  groupBy(productList: Product[]): Product[] {
+    const group = productList.reduce((result: Product[], current: Product) => {
+      const element = result.find(p => p.id === current.id);
+      if (element) {
+        // 商品の数量をインクリメントする
+        element.quantity += 1;
+      } else {
+        result.push(current);
+      }
+      return result;
+    }, []);
+    return group;
   }
-
 }

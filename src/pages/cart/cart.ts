@@ -3,6 +3,7 @@ import { AlertController, NavController, Events } from "ionic-angular";
 import { Product } from "../../model/product.model";
 import { Storage } from "@ionic/storage";
 import { ProductProvider } from "../../providers/product/product";
+import { UtilityProvider } from "../../providers/utility/utility";
 
 @Component({
   selector: "page-cart",
@@ -23,7 +24,8 @@ export class CartPage {
     public alertCtrl: AlertController,
     private storage: Storage,
     private productProvider: ProductProvider,
-    private events: Events
+    private events: Events,
+    private utilityProvider: UtilityProvider
   ) {}
 
   /**
@@ -62,7 +64,7 @@ export class CartPage {
                 product => (this.subtotal += product.price)
               );
               // 同一の商品(idが同じ)を一つのオブジェクトにまとめる
-              this.productList = this.productProvider.groupBy(result);
+              this.productList = this.utilityProvider.groupBy(result);
               // 小計にデリバリー料を加算して、合計を計算している
               this.total = this.subtotal + 300;
             })

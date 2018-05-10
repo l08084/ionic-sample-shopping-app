@@ -1,17 +1,19 @@
-import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { HttpClient } from "@angular/common/http";
+import { Injectable } from "@angular/core";
+import { Observable } from "rxjs/Observable";
+import { Product } from "../../model/product.model";
 
-/*
-  Generated class for the ApiProvider provider.
-
-  See https://angular.io/guide/dependency-injection for more info on providers
-  and Angular DI.
-*/
 @Injectable()
 export class ApiProvider {
+  constructor(public http: HttpClient) {}
 
-  constructor(public http: HttpClient) {
-    console.log('Hello ApiProvider Provider');
+  /**
+   * JSONにアクセスして、結果をProduct[]に変換
+   *
+   * @returns {Observable<Product[]>}
+   * @memberof ApiProvider
+   */
+  retrieve(): Observable<Product[]> {
+    return this.http.get<Product[]>("assets/data/products.json");
   }
-
 }
