@@ -4,6 +4,7 @@ import { HomePage } from "../home/home";
 import { CartPage } from "../cart/cart";
 import { Events } from "ionic-angular";
 import { Storage } from "@ionic/storage";
+import { UtilityProvider } from "../../providers/utility/utility";
 
 @Component({
   templateUrl: "tabs.html"
@@ -14,7 +15,11 @@ export class TabsPage {
   // カート内の商品の数
   public itemCount = 0;
 
-  constructor(private events: Events, private storage: Storage) {}
+  constructor(
+    private events: Events,
+    private storage: Storage,
+    private utilityProvider: UtilityProvider
+  ) {}
 
   /**
    * Ionicのライフサイクルメソッド
@@ -41,10 +46,7 @@ export class TabsPage {
             .get("items")
             .then(items => {
               // 現在のカート内の商品の数を取得
-              const count = items.length;
-              // トピック`cart:updated`で出版
-              // eventDataとして、カート内の商品の数を渡している
-              this.events.publish("cart:updated", count);
+              this.utilityProvider.countItems(items);
             })
             .catch(err => console.log(`storage error: ${err}`));
         }

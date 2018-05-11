@@ -59,10 +59,8 @@ export class CartPage {
               this.productList = result;
               this.productList.forEach(
                 // 小計を計算
-                product => (this.subtotal += product.price)
+                product => (this.subtotal += product.price * product.quantity)
               );
-              // 同一の商品(idが同じ)を一つのオブジェクトにまとめる
-              this.productList = this.utilityProvider.groupBy(result);
               // 小計にデリバリー料を加算して、合計を計算している
               this.total = this.subtotal + 300;
             })
@@ -119,5 +117,23 @@ export class CartPage {
       this.events.publish("cart:updated", 0);
       this.init();
     });
+  }
+
+  remove(index: number) {
+    this.productList.splice(index, 1);
+    this.storage
+      .get("items")
+      .then(result => {
+        result.splice(index, 1);
+        const count = result.reduce((a, x) => (a += x.quantity), 0);
+        if (count === 0) {
+          this.allRemove();
+        } else {
+          this.events.publish("cart:updated", count);
+          this.storage.set("items", result);
+          this.init();
+        }
+      })
+      .catch(err => {});
   }
 }
