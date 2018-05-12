@@ -1,1 +1,694 @@
-webpackJsonp([0],{136:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=136},169:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=169},193:function(l,n,u){"use strict";function t(l){return b._19(0,[(l()(),b.Z(0,0,null,null,2,"ion-nav",[],null,null,null,q.b,q.a)),b._14(6144,null,B.a,null,[D.a]),b.Y(2,4374528,null,0,D.a,[[2,V.a],[2,X.a],S.a,U.a,K.a,b.j,b.u,b.z,b.i,M.l,G.a,[2,N.a],A.a,b.k],{root:[0,"root"]},null),(l()(),b._18(-1,null,["\n"]))],function(l,n){l(n,2,0,n.component.rootPage)},null)}function a(l){return b._19(0,[(l()(),b.Z(0,0,null,null,18,"button",[["class","item item-block"],["ion-item",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.goToDetail(l.context.$implicit)&&t}return t},H.b,H.a)),b.Y(1,1097728,null,3,Q.a,[ll.a,U.a,b.j,b.z,[2,nl.a]],null,null),b._16(335544320,4,{contentLabel:0}),b._16(603979776,5,{_buttons:1}),b._16(603979776,6,{_icons:1}),b.Y(5,16384,null,0,ul.a,[],null,null),(l()(),b._18(-1,2,["\n      "])),(l()(),b.Z(7,0,null,0,4,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),b.Y(8,16384,null,0,tl.a,[],null,null),(l()(),b._18(-1,null,["\n        "])),(l()(),b.Z(10,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),b._18(-1,null,["\n      "])),(l()(),b._18(-1,2,["\n      "])),(l()(),b.Z(13,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),b._18(14,null,["",""])),(l()(),b._18(-1,2,["\n      "])),(l()(),b.Z(16,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),b._18(17,null,["￥",""])),(l()(),b._18(-1,2,["\n    "]))],null,function(l,n){l(n,10,0,b._2(1,"",n.context.$implicit.imagePath,""));l(n,14,0,n.context.$implicit.name);l(n,17,0,n.context.$implicit.price)})}function i(l){return b._19(0,[(l()(),b.Z(0,0,null,null,18,"button",[["class","item item-block"],["ion-item",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.goToDetail(l.context.$implicit)&&t}return t},H.b,H.a)),b.Y(1,1097728,null,3,Q.a,[ll.a,U.a,b.j,b.z,[2,nl.a]],null,null),b._16(335544320,10,{contentLabel:0}),b._16(603979776,11,{_buttons:1}),b._16(603979776,12,{_icons:1}),b.Y(5,16384,null,0,ul.a,[],null,null),(l()(),b._18(-1,2,["\n      "])),(l()(),b.Z(7,0,null,0,4,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),b.Y(8,16384,null,0,tl.a,[],null,null),(l()(),b._18(-1,null,["\n        "])),(l()(),b.Z(10,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),b._18(-1,null,["\n      "])),(l()(),b._18(-1,2,["\n      "])),(l()(),b.Z(13,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),b._18(14,null,["",""])),(l()(),b._18(-1,2,["\n      "])),(l()(),b.Z(16,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),b._18(17,null,["￥",""])),(l()(),b._18(-1,2,["\n    "]))],null,function(l,n){l(n,10,0,b._2(1,"",n.context.$implicit.imagePath,""));l(n,14,0,n.context.$implicit.name);l(n,17,0,n.context.$implicit.price)})}function e(l){return b._19(0,[(l()(),b.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),b.Y(1,16384,null,0,al.a,[U.a,b.j,b.z,[2,V.a]],null,null),(l()(),b._18(-1,null,["\n  "])),(l()(),b.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,il.b,il.a)),b.Y(4,49152,null,0,el.a,[S.a,[2,V.a],[2,X.a],U.a,b.j,b.z],null,null),(l()(),b._18(-1,3,["\n    "])),(l()(),b.Z(6,0,null,3,2,"ion-title",[],null,null,null,ol.b,ol.a)),b.Y(7,49152,null,0,cl.a,[U.a,b.j,b.z,[2,rl.a],[2,el.a]],null,null),(l()(),b._18(-1,0,["Apparel"])),(l()(),b._18(-1,3,["\n  "])),(l()(),b._18(-1,null,["\n"])),(l()(),b._18(-1,null,["\n\n"])),(l()(),b.Z(12,0,null,null,28,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,sl.b,sl.a)),b.Y(13,4374528,null,0,_l.a,[U.a,K.a,A.a,b.j,b.z,S.a,dl.a,b.u,[2,V.a],[2,X.a]],null,null),(l()(),b._18(-1,1,["\n  "])),(l()(),b.Z(15,0,null,1,24,"ion-list",[],null,null,null,null,null)),b.Y(16,16384,null,0,pl.a,[U.a,b.j,b.z,K.a,M.l,A.a],null,null),(l()(),b._18(-1,null,["\n    "])),(l()(),b.Z(18,0,null,null,6,"ion-list-header",[["class","item"]],null,null,null,H.b,H.a)),b.Y(19,1097728,null,3,Q.a,[ll.a,U.a,b.j,b.z,[2,nl.a]],null,null),b._16(335544320,1,{contentLabel:0}),b._16(603979776,2,{_buttons:1}),b._16(603979776,3,{_icons:1}),b.Y(23,16384,null,0,bl.a,[U.a,b.z,b.j,[8,null]],null,null),(l()(),b._18(-1,2,["\n      トップス\n    "])),(l()(),b._18(-1,null,["\n    "])),(l()(),b.U(16777216,null,null,1,null,a)),b.Y(27,802816,null,0,fl.h,[b.I,b.F,b.p],{ngForOf:[0,"ngForOf"]},null),(l()(),b._18(-1,null,["\n    "])),(l()(),b.Z(29,0,null,null,6,"ion-list-header",[["class","item"]],null,null,null,H.b,H.a)),b.Y(30,1097728,null,3,Q.a,[ll.a,U.a,b.j,b.z,[2,nl.a]],null,null),b._16(335544320,7,{contentLabel:0}),b._16(603979776,8,{_buttons:1}),b._16(603979776,9,{_icons:1}),b.Y(34,16384,null,0,bl.a,[U.a,b.z,b.j,[8,null]],null,null),(l()(),b._18(-1,2,["\n      ジャケット/アウター\n    "])),(l()(),b._18(-1,null,["\n    "])),(l()(),b.U(16777216,null,null,1,null,i)),b.Y(38,802816,null,0,fl.h,[b.I,b.F,b.p],{ngForOf:[0,"ngForOf"]},null),(l()(),b._18(-1,null,["\n  "])),(l()(),b._18(-1,1,["\n"])),(l()(),b._18(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,27,0,u.topsList);l(n,38,0,u.jacketList)},function(l,n){l(n,3,0,b._11(n,4)._hidden,b._11(n,4)._sbPadding);l(n,12,0,b._11(n,13).statusbarPadding,b._11(n,13)._hasRefresher)})}function o(l){return b._19(0,[(l()(),b.Z(0,0,null,null,9,"ion-tabs",[],null,null,null,gl.b,gl.a)),b._14(6144,null,B.a,null,[vl.a]),b.Y(2,4374528,null,0,vl.a,[[2,X.a],[2,V.a],S.a,U.a,b.j,K.a,b.z,N.a,dl.a],null,null),(l()(),b._18(-1,0,["\n  "])),(l()(),b.Z(4,0,null,0,1,"ion-tab",[["role","tabpanel"],["tabIcon","home"],["tabTitle","商品"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,Zl.b,Zl.a)),b.Y(5,245760,null,0,Yl.a,[vl.a,S.a,U.a,K.a,b.j,b.u,b.z,b.i,b.g,M.l,G.a,[2,N.a],A.a,b.k],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"]},null),(l()(),b._18(-1,0,["\n  "])),(l()(),b.Z(7,0,null,0,1,"ion-tab",[["role","tabpanel"],["tabBadgeStyle","danger"],["tabIcon","cart"],["tabTitle","カート"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,Zl.b,Zl.a)),b.Y(8,245760,null,0,Yl.a,[vl.a,S.a,U.a,K.a,b.j,b.u,b.z,b.i,b.g,M.l,G.a,[2,N.a],A.a,b.k],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"],tabBadge:[3,"tabBadge"],tabBadgeStyle:[4,"tabBadgeStyle"]},null),(l()(),b._18(-1,0,["\n"])),(l()(),b._18(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,5,0,u.tab1Root,"商品","home");l(n,8,0,u.tab2Root,"カート","cart",b._2(1,"",u.itemCount,""),"danger")},function(l,n){l(n,4,0,b._11(n,5)._tabId,b._11(n,5)._btnId);l(n,7,0,b._11(n,8)._tabId,b._11(n,8)._btnId)})}function c(l){return b._19(0,[(l()(),b.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),b.Y(1,16384,null,0,al.a,[U.a,b.j,b.z,[2,V.a]],null,null),(l()(),b._18(-1,null,["\n  "])),(l()(),b.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,il.b,il.a)),b.Y(4,49152,null,0,el.a,[S.a,[2,V.a],[2,X.a],U.a,b.j,b.z],null,null),(l()(),b._18(-1,3,["\n    "])),(l()(),b.Z(6,0,null,3,2,"ion-title",[],null,null,null,ol.b,ol.a)),b.Y(7,49152,null,0,cl.a,[U.a,b.j,b.z,[2,rl.a],[2,el.a]],null,null),(l()(),b._18(-1,0,["\n    "])),(l()(),b._18(-1,3,["\n  "])),(l()(),b._18(-1,null,["\n"])),(l()(),b._18(-1,null,["\n\n"])),(l()(),b.Z(12,0,null,null,51,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,sl.b,sl.a)),b.Y(13,4374528,null,0,_l.a,[U.a,K.a,A.a,b.j,b.z,S.a,dl.a,b.u,[2,V.a],[2,X.a]],null,null),(l()(),b._18(-1,1,["\n  "])),(l()(),b.Z(15,0,null,1,1,"h2",[],null,null,null,null,null)),(l()(),b._18(16,null,["",""])),(l()(),b._18(-1,1,["\n  "])),(l()(),b.Z(18,0,null,1,3,"div",[["class","image-container"]],null,null,null,null,null)),(l()(),b._18(-1,null,["\n    "])),(l()(),b.Z(20,0,null,null,0,"img",[["class","product-image"]],[[8,"src",4]],null,null,null,null)),(l()(),b._18(-1,null,["\n  "])),(l()(),b._18(-1,1,["\n  "])),(l()(),b.Z(23,0,null,1,7,"div",[["class","comment"]],null,null,null,null,null)),(l()(),b._18(-1,null,["\n    "])),(l()(),b.Z(25,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),b._18(26,null,["",""])),(l()(),b._18(-1,null,["\n    "])),(l()(),b.Z(28,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),b._18(29,null,["",""])),(l()(),b._18(-1,null,["\n  "])),(l()(),b._18(-1,1,["\n  "])),(l()(),b.Z(32,0,null,1,26,"ion-list",[["no-lines",""]],null,null,null,null,null)),b.Y(33,16384,null,0,pl.a,[U.a,b.j,b.z,K.a,M.l,A.a],null,null),(l()(),b._18(-1,null,["\n    "])),(l()(),b.Z(35,0,null,null,15,"ion-item",[["class","item item-block"]],null,null,null,H.b,H.a)),b.Y(36,1097728,null,3,Q.a,[ll.a,U.a,b.j,b.z,[2,nl.a]],null,null),b._16(335544320,1,{contentLabel:0}),b._16(603979776,2,{_buttons:1}),b._16(603979776,3,{_icons:1}),b.Y(40,16384,null,0,ul.a,[],null,null),(l()(),b._18(-1,2,["\n      "])),(l()(),b.Z(42,0,null,2,7,"div",[],null,null,null,null,null)),(l()(),b._18(-1,null,["\n        "])),(l()(),b.Z(44,0,null,null,1,"p",[["class","title"]],null,null,null,null,null)),(l()(),b._18(-1,null,["小計"])),(l()(),b._18(-1,null,["\n        "])),(l()(),b.Z(47,0,null,null,1,"p",[["class","price"]],null,null,null,null,null)),(l()(),b._18(48,null,["￥",""])),(l()(),b._18(-1,null,["\n      "])),(l()(),b._18(-1,2,["\n    "])),(l()(),b._18(-1,null,["\n    "])),(l()(),b.Z(52,0,null,null,5,"ion-item",[["class","item item-block"]],null,null,null,H.b,H.a)),b.Y(53,1097728,null,3,Q.a,[ll.a,U.a,b.j,b.z,[2,nl.a]],null,null),b._16(335544320,4,{contentLabel:0}),b._16(603979776,5,{_buttons:1}),b._16(603979776,6,{_icons:1}),b.Y(57,16384,null,0,ul.a,[],null,null),(l()(),b._18(-1,null,["\n  "])),(l()(),b._18(-1,1,["\n  "])),(l()(),b.Z(60,0,null,1,2,"button",[["class","in-cart"],["color","secondary"],["full",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.addItem(a.product)&&t}return t},Il.b,Il.a)),b.Y(61,1097728,null,0,Pl.a,[[8,""],U.a,b.j,b.z],{color:[0,"color"],full:[1,"full"]},null),(l()(),b._18(-1,0,["カートに1つ追加する"])),(l()(),b._18(-1,1,["\n"])),(l()(),b._18(-1,null,["\n"]))],function(l,n){l(n,61,0,"secondary","")},function(l,n){var u=n.component;l(n,3,0,b._11(n,4)._hidden,b._11(n,4)._sbPadding);l(n,12,0,b._11(n,13).statusbarPadding,b._11(n,13)._hasRefresher);l(n,16,0,u.product.name);l(n,20,0,b._2(1,"",u.product.imagePath,""));l(n,26,0,u.product.commentOne);l(n,29,0,u.product.commentTwo);l(n,48,0,u.product.price)})}function r(l){return b._19(0,[(l()(),b.Z(0,0,null,null,30,"ion-item-sliding",[],null,null,null,Tl.b,Tl.a)),b.Y(1,49152,null,2,wl.a,[[2,pl.a],K.a,b.z,b.j,b.u],null,null),b._16(335544320,2,{item:0}),b._16(603979776,3,{_itemOptions:1}),(l()(),b._18(-1,null,["\n        "])),(l()(),b.Z(5,0,null,0,15,"ion-item",[["class","item item-block"]],null,null,null,H.b,H.a)),b.Y(6,1097728,[[2,4]],3,Q.a,[ll.a,U.a,b.j,b.z,[2,nl.a]],null,null),b._16(335544320,4,{contentLabel:0}),b._16(603979776,5,{_buttons:1}),b._16(603979776,6,{_icons:1}),b.Y(10,16384,null,0,ul.a,[],null,null),(l()(),b._18(-1,2,["\n          "])),(l()(),b.Z(12,0,null,2,1,"div",[["class","quantity"]],null,null,null,null,null)),(l()(),b._18(13,null,["",""])),(l()(),b._18(-1,2,["\n          "])),(l()(),b.Z(15,0,null,2,1,"div",[["class","product"]],null,null,null,null,null)),(l()(),b._18(16,null,["",""])),(l()(),b._18(-1,2,["\n          "])),(l()(),b.Z(18,0,null,2,1,"div",[["class","price"]],null,null,null,null,null)),(l()(),b._18(19,null,["￥",""])),(l()(),b._18(-1,2,["\n        "])),(l()(),b._18(-1,null,["\n        "])),(l()(),b._18(-1,null,["\n        "])),(l()(),b.Z(23,0,null,1,6,"ion-item-options",[],null,null,null,null,null)),b.Y(24,16384,[[3,4]],0,Cl.a,[b.j,K.a],null,null),(l()(),b._18(-1,null,["\n          "])),(l()(),b.Z(26,0,null,null,2,"button",[["color","danger"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.remove(l.context.index)&&t}return t},Il.b,Il.a)),b.Y(27,1097728,null,0,Pl.a,[[8,""],U.a,b.j,b.z],{color:[0,"color"]},null),(l()(),b._18(-1,0,["アイテムを削除する"])),(l()(),b._18(-1,null,["\n        "])),(l()(),b._18(-1,null,["\n      "]))],function(l,n){l(n,27,0,"danger")},function(l,n){l(n,13,0,n.context.$implicit.quantity);l(n,16,0,n.context.$implicit.name);l(n,19,0,n.context.$implicit.price*n.context.$implicit.quantity)})}function s(l){return b._19(0,[(l()(),b.Z(0,0,null,null,61,"div",[],null,null,null,null,null)),(l()(),b._18(-1,null,["\n    "])),(l()(),b.Z(2,0,null,null,54,"ion-list",[],null,null,null,null,null)),b.Y(3,16384,null,0,pl.a,[U.a,b.j,b.z,K.a,M.l,A.a],null,null),(l()(),b._18(-1,null,["\n      "])),(l()(),b._18(-1,null,["\n      "])),(l()(),b.U(16777216,null,null,1,null,r)),b.Y(7,802816,null,0,fl.h,[b.I,b.F,b.p],{ngForOf:[0,"ngForOf"]},null),(l()(),b._18(-1,null,["\n      "])),(l()(),b.Z(9,0,null,null,24,"ion-item",[["class","item item-block"]],null,null,null,H.b,H.a)),b.Y(10,1097728,null,3,Q.a,[ll.a,U.a,b.j,b.z,[2,nl.a]],null,null),b._16(335544320,7,{contentLabel:0}),b._16(603979776,8,{_buttons:1}),b._16(603979776,9,{_icons:1}),b.Y(14,16384,null,0,ul.a,[],null,null),(l()(),b._18(-1,2,["\n        "])),(l()(),b.Z(16,0,null,2,7,"div",[["class","check-detail"]],null,null,null,null,null)),(l()(),b._18(-1,null,["\n          "])),(l()(),b.Z(18,0,null,null,1,"p",[["class","title"]],null,null,null,null,null)),(l()(),b._18(-1,null,["小計"])),(l()(),b._18(-1,null,["\n          "])),(l()(),b.Z(21,0,null,null,1,"p",[["class","price"]],null,null,null,null,null)),(l()(),b._18(22,null,["￥",""])),(l()(),b._18(-1,null,["\n        "])),(l()(),b._18(-1,2,["\n        "])),(l()(),b.Z(25,0,null,2,7,"div",[["class","check-detail"]],null,null,null,null,null)),(l()(),b._18(-1,null,["\n          "])),(l()(),b.Z(27,0,null,null,1,"p",[["class","title"]],null,null,null,null,null)),(l()(),b._18(-1,null,["デリバリー料"])),(l()(),b._18(-1,null,["\n          "])),(l()(),b.Z(30,0,null,null,1,"p",[["class","price"]],null,null,null,null,null)),(l()(),b._18(-1,null,["￥300"])),(l()(),b._18(-1,null,["\n        "])),(l()(),b._18(-1,2,["\n      "])),(l()(),b._18(-1,null,["\n      "])),(l()(),b.Z(35,0,null,null,12,"ion-item",[["class","item item-block"]],null,null,null,H.b,H.a)),b.Y(36,1097728,null,3,Q.a,[ll.a,U.a,b.j,b.z,[2,nl.a]],null,null),b._16(335544320,10,{contentLabel:0}),b._16(603979776,11,{_buttons:1}),b._16(603979776,12,{_icons:1}),b.Y(40,16384,null,0,ul.a,[],null,null),(l()(),b._18(-1,2,["\n        "])),(l()(),b.Z(42,0,null,2,1,"div",[["class","title emphasis"]],null,null,null,null,null)),(l()(),b._18(-1,null,["合計（税込み）"])),(l()(),b._18(-1,2,["\n        "])),(l()(),b.Z(45,0,null,2,1,"div",[["class","price emphasis"]],null,null,null,null,null)),(l()(),b._18(46,null,["￥",""])),(l()(),b._18(-1,2,["\n      "])),(l()(),b._18(-1,null,["\n      "])),(l()(),b.Z(49,0,null,null,6,"ion-item",[["class","item item-block"],["no-lines",""]],null,null,null,H.b,H.a)),b.Y(50,1097728,null,3,Q.a,[ll.a,U.a,b.j,b.z,[2,nl.a]],null,null),b._16(335544320,13,{contentLabel:0}),b._16(603979776,14,{_buttons:1}),b._16(603979776,15,{_icons:1}),b.Y(54,16384,null,0,ul.a,[],null,null),(l()(),b._18(-1,2,["\n      "])),(l()(),b._18(-1,null,["\n    "])),(l()(),b._18(-1,null,["\n    "])),(l()(),b.Z(58,0,null,null,2,"button",[["class","order"],["color","secondary"],["full",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.order()&&t}return t},Il.b,Il.a)),b.Y(59,1097728,null,0,Pl.a,[[8,""],U.a,b.j,b.z],{color:[0,"color"],full:[1,"full"]},null),(l()(),b._18(-1,0,["注文する"])),(l()(),b._18(-1,null,["\n  "]))],function(l,n){l(n,7,0,n.component.productList);l(n,59,0,"secondary","")},function(l,n){var u=n.component;l(n,22,0,u.subtotal);l(n,46,0,u.total)})}function _(l){return b._19(0,[(l()(),b._18(-1,null,["\n    "])),(l()(),b.Z(1,0,null,null,7,"div",[["class","empty"]],null,null,null,null,null)),(l()(),b._18(-1,null,["\n      "])),(l()(),b.Z(3,0,null,null,1,"ion-icon",[["class","icon"],["name","cart"],["role","img"]],[[2,"hide",null]],null,null,null,null)),b.Y(4,147456,null,0,Fl.a,[U.a,b.j,b.z],{name:[0,"name"]},null),(l()(),b._18(-1,null,["\n      "])),(l()(),b.Z(6,0,null,null,1,"div",[["class","message"]],null,null,null,null,null)),(l()(),b._18(-1,null,["カートは空です"])),(l()(),b._18(-1,null,["\n    "])),(l()(),b._18(-1,null,["\n  "]))],function(l,n){l(n,4,0,"cart")},function(l,n){l(n,3,0,b._11(n,4)._hidden)})}function d(l){return b._19(0,[(l()(),b.Z(0,0,null,null,19,"ion-header",[],null,null,null,null,null)),b.Y(1,16384,null,0,al.a,[U.a,b.j,b.z,[2,V.a]],null,null),(l()(),b._18(-1,null,["\n  "])),(l()(),b.Z(3,0,null,null,15,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,il.b,il.a)),b.Y(4,49152,null,0,el.a,[S.a,[2,V.a],[2,X.a],U.a,b.j,b.z],null,null),(l()(),b._18(-1,3,["\n    "])),(l()(),b.Z(6,0,null,3,2,"ion-title",[],null,null,null,ol.b,ol.a)),b.Y(7,49152,null,0,cl.a,[U.a,b.j,b.z,[2,rl.a],[2,el.a]],null,null),(l()(),b._18(-1,0,["\n      カート\n    "])),(l()(),b._18(-1,3,["\n    "])),(l()(),b.Z(10,0,null,2,7,"ion-buttons",[["end",""]],null,null,null,null,null)),b.Y(11,16384,null,1,Rl.a,[U.a,b.j,b.z,[2,rl.a],[2,el.a]],null,null),b._16(603979776,1,{_buttons:1}),(l()(),b._18(-1,null,["\n      "])),(l()(),b.Z(14,0,null,null,2,"button",[["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.allRemove()&&t}return t},Il.b,Il.a)),b.Y(15,1097728,[[1,4]],0,Pl.a,[[8,""],U.a,b.j,b.z],null,null),(l()(),b._18(-1,0,["空にする"])),(l()(),b._18(-1,null,["\n    "])),(l()(),b._18(-1,3,["\n  "])),(l()(),b._18(-1,null,["\n"])),(l()(),b._18(-1,null,["\n\n"])),(l()(),b.Z(21,0,null,null,7,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,sl.b,sl.a)),b.Y(22,4374528,null,0,_l.a,[U.a,K.a,A.a,b.j,b.z,S.a,dl.a,b.u,[2,V.a],[2,X.a]],null,null),(l()(),b._18(-1,1,["\n  "])),(l()(),b.U(16777216,null,1,1,null,s)),b.Y(25,16384,null,0,fl.i,[b.I,b.F],{ngIf:[0,"ngIf"],ngIfElse:[1,"ngIfElse"]},null),(l()(),b._18(-1,1,["\n  "])),(l()(),b.U(0,[["elseBlock",2]],1,0,null,_)),(l()(),b._18(-1,1,["\n"])),(l()(),b._18(-1,null,["\n"]))],function(l,n){l(n,25,0,!n.component.isEmpty,b._11(n,27))},function(l,n){l(n,3,0,b._11(n,4)._hidden,b._11(n,4)._sbPadding);l(n,21,0,b._11(n,22).statusbarPadding,b._11(n,22)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var p=u(40),b=u(0),f=(u(4),u(29),u(83)),h=u(84),m=u(59),g=u(60),v=function(){function l(l,n){this.http=l,this.events=n}return l.prototype.countItems=function(l){var n=this.groupBy(l),u=n.reduce(function(l,n){return l+=n.quantity},0);return this.events.publish("cart:updated",u),n},l.prototype.groupBy=function(l){return l.reduce(function(l,n){var u=l.find(function(l){return l.id===n.id});return u?u.quantity+=1:l.push(n),l},[])},l}(),Z=function(){function l(l,n,u,t){this.http=l,this.storage=n,this.events=u,this.utilityProvider=t}return l.prototype.addItem=function(l){var n=this,u=[];this.storage.length().then(function(t){0===t?((u=[]).push(l),n.storage.set("items",u),n.events.publish("cart:updated",1)):n.storage.get("items").then(function(u){u.push(l);var t=n.utilityProvider.countItems(u);n.storage.set("items",t)}).catch(function(l){return console.log("storage error: "+l)})}).catch(function(l){return console.log("storage error: "+l)})},l}(),Y=function(){function l(l,n,u){this.navCtrl=l,this.navParams=n,this.storageProvider=u}return l.prototype.ngOnInit=function(){this.product=this.navParams.get("product")},l.prototype.addItem=function(l){this.storageProvider.addItem(l),this.navCtrl.pop()},l}(),y=function(){function l(l){this.http=l}return l.prototype.retrieve=function(){return this.http.get("assets/data/products.json")},l}(),j=function(){function l(l,n){this.navCtrl=l,this.apiProvider=n}return l.prototype.ionViewDidLoad=function(){var l=this;this.apiProvider.retrieve().subscribe(function(n){l.productList=n,l.topsList=n.filter(function(l){return 0===l.type}),l.jacketList=n.filter(function(l){return 1===l.type})})},l.prototype.goToDetail=function(l){this.navCtrl.push(Y,{product:l})},l}(),k=function(){function l(l,n,u,t,a){this.navCtrl=l,this.alertCtrl=n,this.storage=u,this.events=t,this.utilityProvider=a}return l.prototype.ionViewDidEnter=function(){this.init()},l.prototype.init=function(){var l=this;this.productList=[],this.subtotal=0,this.total=0,this.isEmpty=!1,this.storage.length().then(function(n){n>0?l.storage.get("items").then(function(n){l.productList=n,l.productList.forEach(function(n){return l.subtotal+=n.price*n.quantity}),l.total=l.subtotal+300}).catch(function(l){}):l.isEmpty=!0}).catch(function(l){})},l.prototype.order=function(){var l=this;this.alertCtrl.create({title:"注文を確定しますか？",buttons:[{text:"キャンセル",handler:function(){}},{text:"OK",handler:function(){l.alertCtrl.create({title:"ご注文を受け付けました！",subTitle:"ご指定の住所までのお届け時間は、20-30分程です",buttons:["OK"]}).present(),l.allRemove()}}]}).present()},l.prototype.allRemove=function(){var l=this;this.storage.clear().then(function(){l.events.publish("cart:updated",0),l.init()})},l.prototype.remove=function(l){var n=this;this.productList.splice(l,1),this.storage.get("items").then(function(u){u.splice(l,1);var t=u.reduce(function(l,n){return l+=n.quantity},0);0===t?n.allRemove():(n.events.publish("cart:updated",t),n.storage.set("items",u),n.init())}).catch(function(l){})},l}(),z=function(){function l(l,n,u){this.events=l,this.storage=n,this.utilityProvider=u,this.tab1Root=j,this.tab2Root=k,this.itemCount=0}return l.prototype.ionViewDidLoad=function(){var l=this;this.events.subscribe("cart:updated",function(n){return l.itemCount=n||0}),this.storage.length().then(function(n){0!==n&&l.storage.get("items").then(function(n){l.utilityProvider.countItems(n)}).catch(function(l){return console.log("storage error: "+l)})}).catch(function(l){return console.log("storage error: "+l)})},l}(),I=function(){return function(l,n,u){this.rootPage=z,l.ready().then(function(){n.styleDefault(),u.hide()})}}(),P=function(){return function(){}}(),L=u(50),x=u(231),O=u(232),T=u(233),w=u(234),C=u(235),F=u(236),R=u(237),$=u(238),E=u(239),q=u(240),B=u(27),D=u(55),V=u(5),X=u(14),S=u(7),U=u(1),K=u(3),M=u(6),G=u(23),N=u(12),A=u(8),J=b.X({encapsulation:2,styles:[],data:{}}),W=b.V("ng-component",I,function(l){return b._19(0,[(l()(),b.Z(0,0,null,null,1,"ng-component",[],null,null,null,t,J)),b.Y(1,49152,null,0,I,[K.a,f.a,h.a],null,null)],null,null)},{},{},[]),H=u(86),Q=u(17),ll=u(15),nl=u(35),ul=u(45),tl=u(115),al=u(57),il=u(123),el=u(24),ol=u(124),cl=u(48),rl=u(38),sl=u(125),_l=u(21),dl=u(22),pl=u(37),bl=u(72),fl=u(10),hl=b.X({encapsulation:2,styles:[],data:{}}),ml=b.V("page-home",j,function(l){return b._19(0,[(l()(),b.Z(0,0,null,null,1,"page-home",[],null,null,null,e,hl)),b.Y(1,49152,null,0,j,[X.a,y],null,null)],null,null)},{},{},[]),gl=u(241),vl=u(47),Zl=u(242),Yl=u(79),yl=u(58),jl=u(85),kl=b.X({encapsulation:2,styles:[],data:{}}),zl=b.V("ng-component",z,function(l){return b._19(0,[(l()(),b.Z(0,0,null,null,1,"ng-component",[],null,null,null,o,kl)),b.Y(1,49152,null,0,z,[yl.a,jl.a,v],null,null)],null,null)},{},{},[]),Il=u(39),Pl=u(19),Ll=u(11),xl=b.X({encapsulation:2,styles:[],data:{}}),Ol=b.V("page-detail",Y,function(l){return b._19(0,[(l()(),b.Z(0,0,null,null,1,"page-detail",[],null,null,null,c,xl)),b.Y(1,114688,null,0,Y,[X.a,Ll.a,Z],null,null)],function(l,n){l(n,1,0)},null)},{},{},[]),Tl=u(243),wl=u(70),Cl=u(69),Fl=u(34),Rl=u(114),$l=u(65),El=b.X({encapsulation:2,styles:[],data:{}}),ql=b.V("page-cart",k,function(l){return b._19(0,[(l()(),b.Z(0,0,null,null,1,"page-cart",[],null,null,null,d,El)),b.Y(1,49152,null,0,k,[X.a,$l.a,jl.a,yl.a,v],null,null)],null,null)},{},{},[]),Bl=u(122),Dl=u(20),Vl=u(96),Xl=u(36),Sl=u(101),Ul=u(190),Kl=u(52),Ml=u(46),Gl=u(103),Nl=u(66),Al=u(108),Jl=u(119),Wl=u(113),Hl=u(189),Ql=u(120),ln=u(31),nn=u(102),un=u(121),tn=b.W(P,[L.b],function(l){return b._7([b._8(512,b.i,b.S,[[8,[x.a,O.a,T.a,w.a,C.a,F.a,R.a,$.a,E.a,W,ml,zl,Ol,ql]],[3,b.i],b.s]),b._8(5120,b.r,b._15,[[3,b.r]]),b._8(4608,fl.k,fl.j,[b.r,[2,fl.s]]),b._8(5120,b.b,b._1,[]),b._8(5120,b.p,b._9,[]),b._8(5120,b.q,b._12,[]),b._8(4608,p.c,p.q,[fl.c]),b._8(6144,b.D,null,[p.c]),b._8(4608,p.f,Bl.a,[]),b._8(5120,p.d,function(l,n,u,t,a){return[new p.k(l,n),new p.o(u),new p.n(t,a)]},[fl.c,b.u,fl.c,fl.c,p.f]),b._8(4608,p.e,p.e,[p.d,b.u]),b._8(135680,p.m,p.m,[fl.c]),b._8(4608,p.l,p.l,[p.e,p.m]),b._8(6144,b.B,null,[p.l]),b._8(6144,p.p,null,[p.m]),b._8(4608,b.G,b.G,[b.u]),b._8(4608,p.h,p.h,[fl.c]),b._8(4608,p.i,p.i,[fl.c]),b._8(4608,Dl.k,Dl.k,[]),b._8(4608,Dl.c,Dl.c,[]),b._8(4608,m.h,m.n,[fl.c,b.w,m.l]),b._8(4608,m.o,m.o,[m.h,m.m]),b._8(5120,m.a,function(l){return[l]},[m.o]),b._8(4608,m.k,m.k,[]),b._8(6144,m.i,null,[m.k]),b._8(4608,m.g,m.g,[m.i]),b._8(6144,m.b,null,[m.g]),b._8(4608,m.f,m.j,[m.b,b.o]),b._8(4608,m.c,m.c,[m.f]),b._8(4608,Vl.a,Vl.a,[S.a,U.a]),b._8(4608,$l.a,$l.a,[S.a,U.a]),b._8(4608,yl.a,yl.a,[]),b._8(4608,ll.a,ll.a,[]),b._8(4608,Xl.a,Xl.a,[K.a]),b._8(4608,dl.a,dl.a,[U.a,K.a,b.u,A.a]),b._8(4608,Sl.a,Sl.a,[S.a,U.a]),b._8(5120,fl.f,Ul.b,[fl.q,[2,fl.a],U.a]),b._8(4608,fl.e,fl.e,[fl.f]),b._8(5120,Kl.b,Kl.d,[S.a,Kl.a]),b._8(5120,N.a,N.b,[S.a,Kl.b,fl.e,Ml.b,b.i]),b._8(4608,Gl.a,Gl.a,[S.a,U.a,N.a]),b._8(4608,Nl.a,Nl.a,[S.a,U.a]),b._8(4608,Al.a,Al.a,[S.a,U.a,N.a]),b._8(4608,Jl.a,Jl.a,[U.a,K.a,A.a,S.a,M.l]),b._8(4608,Wl.a,Wl.a,[S.a,U.a]),b._8(4608,G.a,G.a,[K.a,U.a]),b._8(5120,jl.a,jl.c,[jl.b]),b._8(4608,f.a,f.a,[]),b._8(4608,h.a,h.a,[]),b._8(4608,v,v,[m.c,yl.a]),b._8(4608,Z,Z,[m.c,jl.a,yl.a,v]),b._8(4608,y,y,[m.c]),b._8(512,fl.b,fl.b,[]),b._8(512,b.k,Hl.a,[]),b._8(256,U.b,{},[]),b._8(1024,Ql.a,Ql.b,[]),b._8(1024,K.a,K.b,[p.b,Ql.a,b.u]),b._8(1024,U.a,U.c,[U.b,K.a]),b._8(512,A.a,A.a,[K.a]),b._8(512,ln.a,ln.a,[]),b._8(512,S.a,S.a,[U.a,K.a,[2,ln.a]]),b._8(512,M.l,M.l,[S.a]),b._8(256,Kl.a,{links:[]},[]),b._8(512,b.h,b.h,[]),b._8(512,nn.a,nn.a,[b.h]),b._8(1024,Ml.b,Ml.c,[nn.a,b.o]),b._8(1024,b.c,function(l,n,u,t,a,i,e,o,c,r,s,_,d){return[p.s(l),un.a(n),yl.b(u,t),Jl.b(a,i,e,o,c),Ml.d(r,s,_,d)]},[[2,b.t],U.a,K.a,A.a,U.a,K.a,A.a,S.a,M.l,U.a,Kl.a,Ml.b,b.u]),b._8(512,b.d,b.d,[[2,b.c]]),b._8(131584,b.f,b.f,[b.u,b.T,b.o,b.k,b.i,b.d]),b._8(512,b.e,b.e,[b.f]),b._8(512,p.a,p.a,[[3,p.a]]),b._8(512,Dl.j,Dl.j,[]),b._8(512,Dl.d,Dl.d,[]),b._8(512,Dl.i,Dl.i,[]),b._8(512,Ul.a,Ul.a,[]),b._8(512,m.e,m.e,[]),b._8(512,m.d,m.d,[]),b._8(512,g.a,g.a,[]),b._8(512,P,P,[]),b._8(256,m.l,"XSRF-TOKEN",[]),b._8(256,m.m,"X-XSRF-TOKEN",[]),b._8(256,L.a,I,[]),b._8(256,fl.a,"/",[]),b._8(256,jl.b,null,[])])});Object(b.M)(),Object(p.j)().bootstrapModuleFactory(tn)}},[193]);
+webpackJsonp([0],{
+
+/***/ 113:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 113;
+
+/***/ }),
+
+/***/ 155:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 155;
+
+/***/ }),
+
+/***/ 199:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__home_home__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cart_cart__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utility_utility__ = __webpack_require__(52);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var TabsPage = /** @class */ (function () {
+    function TabsPage(events, storage, utilityProvider) {
+        this.events = events;
+        this.storage = storage;
+        this.utilityProvider = utilityProvider;
+        this.tab1Root = __WEBPACK_IMPORTED_MODULE_1__home_home__["a" /* HomePage */];
+        this.tab2Root = __WEBPACK_IMPORTED_MODULE_2__cart_cart__["a" /* CartPage */];
+        // カート内の商品の数
+        this.itemCount = 0;
+    }
+    /**
+     * Ionicのライフサイクルメソッド
+     * タブ画面の作成時に呼び出される
+     *
+     * @memberof TabsPage
+     */
+    TabsPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        // トピック`cart:updated`を購読している
+        // 最新のカート内の商品数を取得して、バッジの数値を更新する
+        this.events.subscribe("cart:updated", function (count) { return (_this.itemCount = count ? count : 0); });
+        // アプリの初期表示時のタイミング
+        // 前回起動時にカート内に商品を入れた場合を考慮して、
+        // ストレージの読み込みを実施している
+        this.storage
+            .length()
+            .then(function (result) {
+            if (result !== 0) {
+                _this.storage
+                    .get("items")
+                    .then(function (items) {
+                    // 現在のカート内の商品の数を取得
+                    _this.utilityProvider.countItems(items);
+                })
+                    .catch(function (err) { return console.log("storage error: " + err); });
+            }
+        })
+            .catch(function (err) { return console.log("storage error: " + err); });
+    };
+    TabsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/takuya/Practice/ionic-sample-shopping-app/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="商品" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="カート" tabIcon="cart" tabBadge="{{itemCount}}" tabBadgeStyle="danger"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/Users/takuya/Practice/ionic-sample-shopping-app/src/pages/tabs/tabs.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["b" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_4__ionic_storage__["b" /* Storage */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_utility_utility__["a" /* UtilityProvider */]])
+    ], TabsPage);
+    return TabsPage;
+}());
+
+//# sourceMappingURL=tabs.js.map
+
+/***/ }),
+
+/***/ 200:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__detail_detail__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_api_api__ = __webpack_require__(203);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var HomePage = /** @class */ (function () {
+    function HomePage(navCtrl, apiProvider) {
+        this.navCtrl = navCtrl;
+        this.apiProvider = apiProvider;
+    }
+    HomePage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        // 全商品リストを取得
+        this.apiProvider.retrieve().subscribe(function (products) {
+            _this.productList = products;
+            // トップス のみのリストを取得
+            _this.topsList = products.filter(function (product) { return product.type === 0 /* tops */; });
+            // ジャケット/アウター のみのリストを取得
+            _this.jacketList = products.filter(function (product) { return product.type === 1 /* jacket */; });
+        });
+    };
+    HomePage.prototype.goToDetail = function (product) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__detail_detail__["a" /* DetailPage */], { product: product });
+    };
+    HomePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: "page-home",template:/*ion-inline-start:"/Users/takuya/Practice/ionic-sample-shopping-app/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Apparel</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>\n      トップス\n    </ion-list-header>\n    <button ion-item *ngFor="let tops of topsList" (click)="goToDetail(tops)">\n      <ion-thumbnail item-start>\n        <img src="{{tops.imagePath}}">\n      </ion-thumbnail>\n      <h2>{{tops.name}}</h2>\n      <p>￥{{tops.price}}</p>\n    </button>\n    <ion-list-header>\n      ジャケット/アウター\n    </ion-list-header>\n    <button ion-item *ngFor="let jacket of jacketList" (click)="goToDetail(jacket)">\n      <ion-thumbnail item-start>\n        <img src="{{jacket.imagePath}}">\n      </ion-thumbnail>\n      <h2>{{jacket.name}}</h2>\n      <p>￥{{jacket.price}}</p>\n    </button>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/takuya/Practice/ionic-sample-shopping-app/src/pages/home/home.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_api_api__["a" /* ApiProvider */]])
+    ], HomePage);
+    return HomePage;
+}());
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 201:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DetailPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_storage_storage__ = __webpack_require__(202);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var DetailPage = /** @class */ (function () {
+    function DetailPage(navCtrl, navParams, storageProvider) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.storageProvider = storageProvider;
+    }
+    DetailPage.prototype.ngOnInit = function () {
+        // 商品リスト画面でタップした商品情報を受け取る
+        this.product = this.navParams.get("product");
+    };
+    /**
+     * ショッピングカートに商品を追加する
+     *
+     * @param {Product} product
+     * @memberof DetailPage
+     */
+    DetailPage.prototype.addItem = function (product) {
+        this.storageProvider.addItem(product);
+        // 商品リスト画面に戻る
+        this.navCtrl.pop();
+    };
+    DetailPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: "page-detail",template:/*ion-inline-start:"/Users/takuya/Practice/ionic-sample-shopping-app/src/pages/detail/detail.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>{{product.name}}</h2>\n  <div class="image-container">\n    <img class="product-image" src="{{product.imagePath}}">\n  </div>\n  <div class="comment">\n    <p>{{product.commentOne}}</p>\n    <p>{{product.commentTwo}}</p>\n  </div>\n  <ion-list no-lines>\n    <ion-item>\n      <div>\n        <p class="title">小計</p>\n        <p class="price">￥{{product.price}}</p>\n      </div>\n    </ion-item>\n    <ion-item></ion-item>\n  </ion-list>\n  <button ion-button full color="secondary" class="in-cart" (click)="addItem(product)">カートに1つ追加する</button>\n</ion-content>\n'/*ion-inline-end:"/Users/takuya/Practice/ionic-sample-shopping-app/src/pages/detail/detail.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__providers_storage_storage__["a" /* StorageProvider */]])
+    ], DetailPage);
+    return DetailPage;
+}());
+
+//# sourceMappingURL=detail.js.map
+
+/***/ }),
+
+/***/ 202:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StorageProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_storage__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utility_utility__ = __webpack_require__(52);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var StorageProvider = /** @class */ (function () {
+    function StorageProvider(http, storage, events, utilityProvider) {
+        this.http = http;
+        this.storage = storage;
+        this.events = events;
+        this.utilityProvider = utilityProvider;
+    }
+    StorageProvider.prototype.addItem = function (product) {
+        var _this = this;
+        var itemList = [];
+        this.storage
+            .length()
+            .then(function (result) {
+            // カート内の商品が0個だった場合
+            if (result === 0) {
+                itemList = [];
+                itemList.push(product);
+                // ストレージにボタンを押下した商品を追加する
+                _this.storage.set("items", itemList);
+                // トピック`cart:updated`で出版
+                // eventDataとして、カート内の商品の数を渡している
+                _this.events.publish("cart:updated", 1);
+            }
+            else {
+                // カート内にすでに商品があった場合
+                _this.storage
+                    .get("items")
+                    .then(function (items) {
+                    items.push(product);
+                    var result = _this.utilityProvider.countItems(items);
+                    // ストレージにボタンを押下した商品を追加する
+                    _this.storage.set("items", result);
+                })
+                    .catch(function (err) { return console.log("storage error: " + err); });
+            }
+        })
+            .catch(function (err) { return console.log("storage error: " + err); });
+    };
+    StorageProvider = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_common_http__["a" /* HttpClient */],
+            __WEBPACK_IMPORTED_MODULE_3__ionic_storage__["b" /* Storage */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_4__utility_utility__["a" /* UtilityProvider */]])
+    ], StorageProvider);
+    return StorageProvider;
+}());
+
+//# sourceMappingURL=storage.js.map
+
+/***/ }),
+
+/***/ 203:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ApiProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ApiProvider = /** @class */ (function () {
+    function ApiProvider(http) {
+        this.http = http;
+    }
+    /**
+     * JSONにアクセスして、結果をProduct[]に変換
+     *
+     * @returns {Observable<Product[]>}
+     * @memberof ApiProvider
+     */
+    ApiProvider.prototype.retrieve = function () {
+        return this.http.get("assets/data/products.json");
+    };
+    ApiProvider = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_common_http__["a" /* HttpClient */]])
+    ], ApiProvider);
+    return ApiProvider;
+}());
+
+//# sourceMappingURL=api.js.map
+
+/***/ }),
+
+/***/ 204:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CartPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utility_utility__ = __webpack_require__(52);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var CartPage = /** @class */ (function () {
+    function CartPage(navCtrl, alertCtrl, storage, events, utilityProvider) {
+        this.navCtrl = navCtrl;
+        this.alertCtrl = alertCtrl;
+        this.storage = storage;
+        this.events = events;
+        this.utilityProvider = utilityProvider;
+    }
+    /**
+     * Ionicのライフサイクルメソッドの一種
+     * ページがアクティブになると呼び出される
+     *
+     * @memberof CartPage
+     */
+    CartPage.prototype.ionViewDidEnter = function () {
+        // 画面の初期化処理
+        this.init();
+    };
+    /**
+     * カート画面の初期化処理を行う
+     * ストレージの読み込みを行い、商品が入っていればリスト形式で表示する
+     *
+     * @memberof CartPage
+     */
+    CartPage.prototype.init = function () {
+        var _this = this;
+        this.productList = [];
+        this.subtotal = 0;
+        this.total = 0;
+        this.isEmpty = false;
+        this.storage
+            .length()
+            .then(function (result) {
+            // カート内に商品がある場合
+            if (result > 0) {
+                _this.storage
+                    .get("items")
+                    .then(function (result) {
+                    _this.productList = result;
+                    _this.productList.forEach(
+                    // 小計を計算
+                    function (product) { return (_this.subtotal += product.price * product.quantity); });
+                    // 小計にデリバリー料を加算して、合計を計算している
+                    _this.total = _this.subtotal + 300;
+                })
+                    .catch(function (err) { });
+            }
+            else {
+                // カート内が空の場合
+                _this.isEmpty = true;
+            }
+        })
+            .catch(function (err) { });
+    };
+    /**
+     * 「注文する」ボタン押下時に呼び出し
+     *  Confirm Alertを表示し、OKを選択すると、
+     *  注文を確定して、ストレージをクリアする
+     *
+     * @memberof CartPage
+     */
+    CartPage.prototype.order = function () {
+        var _this = this;
+        // Confirm Alertを表示する
+        var confirm = this.alertCtrl.create({
+            title: "注文を確定しますか？",
+            buttons: [
+                {
+                    text: "キャンセル",
+                    handler: function () { }
+                },
+                {
+                    text: "OK",
+                    handler: function () {
+                        var alert = _this.alertCtrl.create({
+                            title: "ご注文を受け付けました！",
+                            subTitle: "ご指定の住所までのお届け時間は、20-30分程です",
+                            buttons: ["OK"]
+                        });
+                        alert.present();
+                        // ショッピングカートの中を空にする
+                        _this.allRemove();
+                    }
+                }
+            ]
+        });
+        confirm.present();
+    };
+    /**
+     * ショッピングカートの中を空にする
+     *
+     * @memberof CartPage
+     */
+    CartPage.prototype.allRemove = function () {
+        var _this = this;
+        this.storage.clear().then(function () {
+            _this.events.publish("cart:updated", 0);
+            _this.init();
+        });
+    };
+    CartPage.prototype.remove = function (index) {
+        var _this = this;
+        this.productList.splice(index, 1);
+        this.storage
+            .get("items")
+            .then(function (result) {
+            result.splice(index, 1);
+            var count = result.reduce(function (a, x) { return (a += x.quantity); }, 0);
+            if (count === 0) {
+                _this.allRemove();
+            }
+            else {
+                _this.events.publish("cart:updated", count);
+                _this.storage.set("items", result);
+                _this.init();
+            }
+        })
+            .catch(function (err) { });
+    };
+    CartPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: "page-cart",template:/*ion-inline-start:"/Users/takuya/Practice/ionic-sample-shopping-app/src/pages/cart/cart.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      カート\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button (click)="allRemove()">空にする</button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <div *ngIf="!isEmpty; else elseBlock">\n    <ion-list>\n      <!-- ItemSlidingにしたいリストの部分を\'ion-item-sliding\'で囲む -->\n      <ion-item-sliding *ngFor="let product of productList; let i = index">\n        <ion-item>\n          <div class="quantity">{{product.quantity}}</div>\n          <div class="product">{{product.name}}</div>\n          <div class="price">￥{{product.price * product.quantity}}</div>\n        </ion-item>\n        <!-- スライドした時に表示したいアイテムはここに書く -->\n        <ion-item-options>\n          <button ion-button (click)="remove(i)" color="danger">アイテムを削除する</button>\n        </ion-item-options>\n      </ion-item-sliding>\n      <ion-item>\n        <div class="check-detail">\n          <p class="title">小計</p>\n          <p class="price">￥{{subtotal}}</p>\n        </div>\n        <div class="check-detail">\n          <p class="title">デリバリー料</p>\n          <p class="price">￥300</p>\n        </div>\n      </ion-item>\n      <ion-item>\n        <div class="title emphasis">合計（税込み）</div>\n        <div class="price emphasis">￥{{total}}</div>\n      </ion-item>\n      <ion-item no-lines>\n      </ion-item>\n    </ion-list>\n    <button ion-button full color="secondary" class="order" (click)="order()">注文する</button>\n  </div>\n  <ng-template #elseBlock>\n    <div class="empty">\n      <ion-icon name="cart" class="icon"></ion-icon>\n      <div class="message">カートは空です</div>\n    </div>\n  </ng-template>\n</ion-content>\n'/*ion-inline-end:"/Users/takuya/Practice/ionic-sample-shopping-app/src/pages/cart/cart.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
+            __WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_utility_utility__["a" /* UtilityProvider */]])
+    ], CartPage);
+    return CartPage;
+}());
+
+//# sourceMappingURL=cart.js.map
+
+/***/ }),
+
+/***/ 205:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(226);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 226:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_tabs_tabs__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_splash_screen__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_common_http__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_detail_detail__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_cart_cart__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_storage__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_storage_storage__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_utility_utility__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_api_api__ = __webpack_require__(203);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = /** @class */ (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */], __WEBPACK_IMPORTED_MODULE_5__pages_tabs_tabs__["a" /* TabsPage */], __WEBPACK_IMPORTED_MODULE_9__pages_detail_detail__["a" /* DetailPage */], __WEBPACK_IMPORTED_MODULE_10__pages_cart_cart__["a" /* CartPage */]],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
+                    links: []
+                }),
+                __WEBPACK_IMPORTED_MODULE_8__angular_common_http__["b" /* HttpClientModule */],
+                __WEBPACK_IMPORTED_MODULE_11__ionic_storage__["a" /* IonicStorageModule */].forRoot()
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicApp */]],
+            entryComponents: [__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */], __WEBPACK_IMPORTED_MODULE_5__pages_tabs_tabs__["a" /* TabsPage */], __WEBPACK_IMPORTED_MODULE_9__pages_detail_detail__["a" /* DetailPage */], __WEBPACK_IMPORTED_MODULE_10__pages_cart_cart__["a" /* CartPage */]],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_7__ionic_native_splash_screen__["a" /* SplashScreen */],
+                { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicErrorHandler */] },
+                __WEBPACK_IMPORTED_MODULE_12__providers_storage_storage__["a" /* StorageProvider */],
+                __WEBPACK_IMPORTED_MODULE_13__providers_utility_utility__["a" /* UtilityProvider */],
+                __WEBPACK_IMPORTED_MODULE_14__providers_api_api__["a" /* ApiProvider */]
+            ]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 268:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__ = __webpack_require__(199);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MyApp = /** @class */ (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__["a" /* TabsPage */];
+        platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            statusBar.styleDefault();
+            splashScreen.hide();
+        });
+    }
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/takuya/Practice/ionic-sample-shopping-app/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/takuya/Practice/ionic-sample-shopping-app/src/app/app.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    ], MyApp);
+    return MyApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 52:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UtilityProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(21);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var UtilityProvider = /** @class */ (function () {
+    function UtilityProvider(http, events) {
+        this.http = http;
+        this.events = events;
+    }
+    UtilityProvider.prototype.countItems = function (productList) {
+        var result = this.groupBy(productList);
+        var count = result.reduce(function (a, x) { return (a += x.quantity); }, 0);
+        this.events.publish("cart:updated", count);
+        return result;
+    };
+    UtilityProvider.prototype.groupBy = function (productList) {
+        var group = productList.reduce(function (result, current) {
+            var element = result.find(function (p) { return p.id === current.id; });
+            if (element) {
+                // 商品の数量をインクリメントする
+                element.quantity += 1;
+            }
+            else {
+                result.push(current);
+            }
+            return result;
+        }, []);
+        return group;
+    };
+    UtilityProvider = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_common_http__["a" /* HttpClient */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* Events */]])
+    ], UtilityProvider);
+    return UtilityProvider;
+}());
+
+//# sourceMappingURL=utility.js.map
+
+/***/ })
+
+},[205]);
+//# sourceMappingURL=main.js.map
