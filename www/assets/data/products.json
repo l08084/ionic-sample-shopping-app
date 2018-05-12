@@ -1,0 +1,81 @@
+[{
+    "id": "01",
+    "name": "ボーダーシャツ長袖",
+    "price": 3500,
+    "type": 0,
+    "imagePath": "assets/imgs/black-white-border.png",
+    "commentOne": "合わせやすいカジュアルなボーダーの長袖シャツ",
+    "commentTwo": "シワ加工ディティール入り、オーバーサイズシャツ、ケアレスファイバー",
+    "quantity": 1
+  },
+  {
+    "id": "02",
+    "name": "ドット柄ブラウス",
+    "price": 2400,
+    "type": 0,
+    "imagePath": "assets/imgs/blue-blouse.png",
+    "commentOne": "合わせやすいカジュアルなボーダーの長袖シャツ",
+    "commentTwo": "シワ加工ディティール入り、オーバーサイズシャツ、ケアレスファイバー",
+    "quantity": 1
+  },
+  {
+    "id": "03",
+    "name": "英字プリント半袖Tシャツ",
+    "price": 2200,
+    "type": 0,
+    "imagePath": "assets/imgs/gray-t-shirt.png",
+    "commentOne": "合わせやすいカジュアルなボーダーの長袖シャツ",
+    "commentTwo": "シワ加工ディティール入り、オーバーサイズシャツ、ケアレスファイバー",
+    "quantity": 1
+  },
+  {
+    "id": "04",
+    "name": "ストライプ柄ブラウス",
+    "price": 3700,
+    "type": 0,
+    "imagePath": "assets/imgs/white-blouse.png",
+    "commentOne": "合わせやすいカジュアルなボーダーの長袖シャツ",
+    "commentTwo": "シワ加工ディティール入り、オーバーサイズシャツ、ケアレスファイバー",
+    "quantity": 1
+  },
+  {
+    "id": "11",
+    "name": "シワ加工ジャケット",
+    "price": 12000,
+    "type": 1,
+    "imagePath": "assets/imgs/beige-jacket.png",
+    "commentOne": "合わせやすいカジュアルなボーダーの長袖シャツ",
+    "commentTwo": "シワ加工ディティール入り、オーバーサイズシャツ、ケアレスファイバー",
+    "quantity": 1
+  },
+  {
+    "id": "12",
+    "name": "スクールダッフルコート",
+    "price": 11000,
+    "type": 1,
+    "imagePath": "assets/imgs/blue-duffle-coat.png",
+    "commentOne": "合わせやすいカジュアルなボーダーの長袖シャツ",
+    "commentTwo": "シワ加工ディティール入り、オーバーサイズシャツ、ケアレスファイバー",
+    "quantity": 1
+  },
+  {
+    "id": "13",
+    "name": "スクールダッフルコート",
+    "price": 11000,
+    "type": 1,
+    "imagePath": "assets/imgs/white-duffle-coat.png",
+    "commentOne": "合わせやすいカジュアルなボーダーの長袖シャツ",
+    "commentTwo": "シワ加工ディティール入り、オーバーサイズシャツ、ケアレスファイバー",
+    "quantity": 1
+  },
+  {
+    "id": "14",
+    "name": "ナイロンパーカー",
+    "price": 37000,
+    "type": 1,
+    "imagePath": "assets/imgs/nylon-parker.png",
+    "commentOne": "合わせやすいカジュアルなボーダーの長袖シャツ",
+    "commentTwo": "シワ加工ディティール入り、オーバーサイズシャツ、ケアレスファイバー",
+    "quantity": 1
+  }
+]
